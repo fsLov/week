@@ -1,0 +1,46 @@
+.info{
+    margin-left: 50px;
+}
+h6{
+    height: 2px;
+    background: rgba(5, 5, 8, 0.29);
+}
+h2{
+    font-size: 18px;
+    font-weight: normal;
+}
+p{
+    font-size: 14px;
+}
+button {
+    margin-left: 1000px;
+    background:#01b0b9;
+    border:1px solid #01b0b9;
+    border-radius:5px;
+    width:127px;
+    height:40px;
+}
+button a{
+    color: #fff;
+    text-decoration: none;
+}
+label{
+    position: relative;
+    width: 1096px;
+    margin-left: 50px;
+    height: 400px;
+    background: #e0e0e0;
+}
+#fs{
+    visibility: hidden;
+}
+label .up{
+    position: absolute;
+    width: 45px;
+    height: 30px;
+    left: 50%;
+    top: 185px;
+}
+#resident{
+    margin-left: 50px;
+}

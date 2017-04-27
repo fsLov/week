@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<div class="container">
+    <div class="row tnt" style="background: #fff">
+        <div class="img col-lg-1">
+            <img src="../img/ben.jpg" alt="" style="width: 148px; height: 100px;margin-top: 10px">
+        </div>
+        <div class="col-lg-9 sun">
+            <p class="one">社区生日会</p>
+            <p>提供社区五保供养申请的办理指南、注意事项、办理机构等相关的服务。</p>
+        </div>
+        <div class="col-lg-2"></div>
+    </div>
+    <div>
+        <ul class="nav nav-tabs">
+            <li role="presentation" ui-sref-active="active"><a href="#" ui-sref="service.referral">活动介绍</a></li>
+            <li role="presentation" ui-sref-active="active"><a href="#" ui-sref="service.check">查看活动</a></li>
+            <li role="presentation" ui-sref-active="active"><a href="#" ui-sref="service.summary">活动总结</a></li>
+        </ul>
+        <ui-view></ui-view>
+    </div>
+</div>
+</body>
+</html>

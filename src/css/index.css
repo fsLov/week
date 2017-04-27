@@ -1,0 +1,148 @@
+*{margin: 0;padding: 0;box-sizing: border-box;
+}
+.navs{
+    height: 44px;
+    width: 100%;
+    background: #01b0b9;
+
+}
+.navs ul{
+    margin-right: 25px;
+    line-height: 25px;
+}
+.navs a{
+    color: #fff;
+}
+.navs a:hover{
+    color: #ee8363;
+}
+.navbar{
+    height: 100px;
+    padding-left: 60px;
+}
+.navbar a{
+    font-family:JLinXin;
+    font-size:30px;
+    color:#01b0b9;
+    text-align:left;
+}
+.navbar i{
+    font-size:18px;
+    font-style: normal;
+    color:#616161;
+    text-align:left;
+    margin-left: 5px;
+}
+.navbar ol li:hover{
+    font-family:MicrosoftYaHei;
+    font-size:18px;
+    color:#01b0b9;
+}
+.menu{
+    background: #f4f4f4;
+}
+.menu p{
+    margin-left: 90px;
+    padding-top: 20px;
+
+}
+.menu p a{
+    font-size: 14px;
+    color: #898989;
+    text-decoration: none;
+}
+.container{
+    width: 100%;
+    height: auto;
+    background: #f4f4f4;
+
+}
+.tnt{
+    height: 130px;
+    padding: 0 30px;
+    color: #000;
+    border-bottom: 8px solid #e1e1e1;
+}
+.sun{
+    margin-top: 5px;
+    margin-left: 60px;
+}
+.one{
+    font-family:MicrosoftYaHei;
+    font-size:24px;
+    color:#01b0b9;
+}
+.main{
+    margin-top: 20px;
+    background: #f4f4f4;
+}
+.sunshine{
+    background: #fff;
+    border-bottom: none;
+}
+.input-file label{
+    display: inline-block;
+    min-height: 300px;
+    border: 1px solid #ccc;
+    background: #eee url("./upload.png") no-repeat center center;
+
+}
+.input-file input{
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+
+
+
+.timeline-wrap{
+    border-left: 2px solid #aaa;
+    position: relative;
+    padding: 30px 21px 50px 0;
+    margin: 30px 0;
+}
+.timeline-wrap span{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: #fff;
+    border: 2px solid #aaa;
+    border-radius:100%;
+}
+.timeline-wrap span.top{
+    left: -6px;
+    top: -5px;
+}
+.timeline-wrap span.bottom{
+    left: -6px;
+    bottom: -5px;
+}
+.time-line li{
+    position: relative;
+}
+.time-line li:after{
+    position: absolute;
+    content: '';
+    width: 10px;
+    height: 10px;
+    background: #aaa;
+    border: 2px solid #fff;
+    border-radius: 100%;
+    left: -6px;
+    top: 20px;
+}
+.time-line > li:hover:after{
+    background-color: dodgerblue;
+}
+.time-line li.active:after{
+    background: dodgerblue;
+}
+
+.nav-side{
+
+}
+.scrollspy-example{
+    height: 300px;
+    overflow-y: auto;
+    position: relative;
+}

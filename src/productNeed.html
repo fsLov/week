@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+
+    <link rel="stylesheet" href="../libs/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="../js/angular.js"></script>
+    <script src="../js/angular-ui-router.min.js"></script>
+    <script src="../js/config.js"></script>
+    <script src="../libs/bootstrap/dist/js/jquery-2.1.1.min.js"></script>
+    <script src="../libs/bootstrap/dist/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+<div class="row">
+    <div class="col-xs-12 navs">
+        <ul class="nav nav-pills navbar-right">
+            <li role="presentation"><a href="#">注册</a></li>
+            <li role="presentation"><a href="#">登录</a></li>
+            <li role="presentation"><a href="#">通知</a></li>
+            <li role="presentation"><a href="#">设置</a></li>
+        </ul>
+    </div>
+</div>
+
+<div class="hostnav">
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">
+                    三鑫智慧社区
+                </a><br>
+                <i>一站式惠民服务平台</i>
+            </div>
+            <ol class="breadcrumb">
+                <li ui-sref-active="active" ui-sref="home">首页</li>
+                <li ui-sref-active="active" ui-sref="service">社区团体活动服务</li>
+                <li ui-sref-active="active" ui-sref="tissue">党组织活动服务</li>
+                <li ui-sref-active="active" ui-sref="swaraj">居民自治活动服务</li>
+            </ol>
+        </div>
+    </nav>
+</div>
+<div class="row menu">
+    <p><a href="#">当前位置：首页 >  社区养老>  离休退休</a></p>
+</div>
+<div class="container" ui-view="">
+
+</div>
+<!--<div class="container">
+    <div class="row tnt" style="background: #fff">
+       <div class="img col-lg-1">
+           <img src="../img/ben.jpg" alt="">
+       </div>
+        <div class="col-lg-9 sun">
+             <p class="one">社区生日会</p>
+             <p>提供社区五保供养申请的办理指南、注意事项、办理机构等相关的服务。</p>
+        </div>
+        <div class="col-lg-2"></div>
+    </div>
+</div>-->
+
+</body>
+</html>

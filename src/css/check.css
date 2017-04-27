@@ -1,0 +1,35 @@
+?*{margin: 0;padding: 0}
+.check{
+    margin-left: 50px;
+}
+h2{
+    font-size: 18px;
+}
+h1{
+    height: 2px;
+    background: rgba(5, 5, 8, 0.29);
+}
+.tri a{
+    position: relative;
+}
+.triangle{
+    position: absolute;
+    left: 16px;
+    top: 20px;
+    width: 0;
+    height: 0;
+    border-top: 100px solid #d45858;
+    border-right: 100px solid transparent;
+}
+.triangle div{
+    position: absolute;
+    z-index: 1;
+    top: -100px;
+    left: 20px;
+    color: #fff;
+    transform:rotate(-45deg)
+}
+b{
+    font-weight: normal;
+    font-size: 14px;
+}
